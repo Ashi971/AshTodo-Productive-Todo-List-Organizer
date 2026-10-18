@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    color: white !important;
+    font-family: "Charis SIL",ital;
+    font-size: 28px;
+}
+.navbar{
+    background-color: transparent !important;
+    display: flex;
+    justify-content: center;
+}
+.background{
+    background-image: url('bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+.headline{
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 96px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.content{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;;
+    align-items: center;
+}
+input{
+    border-style: none;
+    border-color: white;
+}
+.input-item{
+    background-color: white;
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    background-color: lightblue;
+    color: white;
+    margin-left: 10px;
+    width: 100px;
+    border-radius: 30px;
+
+}
+.checkbox-class{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+
+}
+.todo-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 70px;
+    width: 700px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: black;
+    font-size: 19px;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.todo-1-background{
+    background-color: white;
+}
+.todo-1-background-checked{
+    background-color: #004492;
+}
+.todo-1:hover{
+    /* background-image:linear-gradient(to right,#2A7B9B,#1F2554,#53E3ED) */
+    background-color: #0E282F;
+    color: white;   
+}
+
+.is_checked{
+    text-decoration: line-through;
+    font-style: italic;
+    color: white;
+}
+.label-class{
+    padding-left: 50px;
+}
